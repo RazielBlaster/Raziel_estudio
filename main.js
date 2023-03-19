@@ -26,7 +26,7 @@
     // console.log(20+4) //suma 
 // console.log(20-4) //resta
 // console.log(20*4) //Multiplicar
-// console.log(20/4) //división
+// console.log(20/8) //división
 // console.log(20**4) //exponenciacion
 // console.log(20%4) //Residuo de la división
 }
