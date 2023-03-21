@@ -82,27 +82,45 @@
 // if(frase.includes("r")){
 //     frase=frase.replaceAll("r","R")
 //     console.log(frase);
-// }
+//
+ }
 
 
 //Cree una función en donde si la frase tiene menos de 15 letras remplace la última letra por una mayúscula, si tiene más de 15 letras. Remplace la primera letra por minúscula.
+{
+// let frase="hola a todos"
 
-let frase="hola a todos"
-
-function change(frase){
-if(frase.length <= 15){
-  let guarLet=frase.slice(-1)
-  let camMayus=guarLet.toUpperCase()
-  if(frase.includes(guarLet)){
-    frase=frase.replace(guarLet,camMayus)
-     console.log(frase)
-  }
+// function change(frase){
+// if(frase.length <= 15){
+//   let guarLet=frase.slice(-1)
+//   let camMayus=guarLet.toUpperCase()
+//   if(frase.includes(guarLet)){
+//     frase=frase.replace(guarLet,camMayus)
+//      console.log(frase)
+//   }
  
-}else{
-  console.log("no funciono")
-}  
+// }else{
+//   console.log("no funciono")
+// }  
+// }
+
+
+// change(frase)
+let phrase = 'Holas a'
+const maxNumber = 15
+
+function change(phrase, maxNumber){
+  
+  let lastCharacter = phrase.slice(-1).toUpperCase()
+  let length = phrase.length
+  let startPhrase = phrase.slice(0, length-1)
+  
+  if(phrase.length <= maxNumber){
+      console.log(startPhrase+lastCharacter)
+  }
+
+  
 }
 
-
-change(frase)
+change(phrase, maxNumber)
 }
