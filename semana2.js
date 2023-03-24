@@ -82,11 +82,12 @@
 // if(frase.includes("r")){
 //     frase=frase.replaceAll("r","R")
 //     console.log(frase);
-// }
+// 
+}
 
 
 //Cree una función en donde si la frase tiene menos de 15 letras remplace la última letra por una mayúscula, si tiene más de 15 letras. Remplace la primera letra por minúscula.
-
+{
 let frase="hola a todos"
 
 function change(frase){
