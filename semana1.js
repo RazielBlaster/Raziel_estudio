@@ -8,7 +8,7 @@
 
 // //forma de concatenar
 // console.log(nombre + " "+ nombre1);  // concatenar 1
-// console.log(nombre,nombre1);  // concatena y da espacio automatico 
+// console.log(nombre,"perra",nombre1);  // concatena y da espacio automatico 
 // console.log(`${nombre} y ${nombre1} \n son gays`);  // template string \n= salto de linea
 }
 
@@ -23,7 +23,7 @@
 
 //OPERADORES
 {
-    // console.log(20+4) //suma 
+// console.log(20+4) //suma 
 // console.log(20-4) //resta
 // console.log(20*4) //Multiplicar
 // console.log(20/8) //división
@@ -85,3 +85,25 @@
 //     return resul
 // }
 // console.log(oper(num1,num2,num3));
+
+// ejercicios
+// hacer una función que reciba 4 números  
+// se deben multiplicar los 2 primees
+// los resultados se dividen por el 3
+// el resultado del tercero va a ser el exponente del cuarto numero 
+// y se va a dividir el resultado por el primer numero
+{
+// const num1=9
+// const num2=8
+// const num3=7
+// const num4=6
+// function operacion(nume1,nume2,nume3,nume4){
+// let multi= nume1*nume2
+// let restMulti=multi/nume3
+// let restDiv=nume4**restMulti
+// let result=restDiv/nume1
+// return result
+// }
+// let resultado=operacion(num1,num2,num3,num4)
+// console.log(resultado);
+}
