@@ -88,22 +88,22 @@
 
 //Cree una función en donde si la frase tiene menos de 15 letras remplace la última letra por una mayúscula, si tiene más de 15 letras. Remplace la primera letra por minúscula.
 {
-let frase="hola a todos"
+// let frase="hola a todos"
 
-function change(frase){
-if(frase.length <= 15){
-  let guarLet=frase.slice(-1)
-  let camMayus=guarLet.toUpperCase()
-  if(frase.includes(guarLet)){
-    frase=frase.replace(guarLet,camMayus)
-     console.log(frase)
-  }
+// function change(frase){
+// if(frase.length <= 15){
+//   let guarLet=frase.slice(-1)
+//   let camMayus=guarLet.toUpperCase()
+//   if(frase.includes(guarLet)){
+//     frase=frase.replace(guarLet,camMayus)
+//      console.log(frase)
+//   }
  
-}else{
-  console.log("no funciono")
-}  
-}
+// }else{
+//   console.log("no funciono")
+// }  
+// }
 
 
-change(frase)
+// change(frase)
 }
