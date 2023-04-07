@@ -68,14 +68,14 @@
 // console.log(multiplicar(4,6)); 
 
 
-// let nameUser ="Raziel"
-// let age = 4
-// let genre = "woman"
+let nameUser ="Wilson"
+let age = 47
+let genre = "Man"
 
-// function concatenar(nameUser,age,genre){
-//     console.log(`El usuario ${nameUser} tiene ${age} años y es de genero ${genre}`);
-// }
-// concatenar(nameUser,age,genre)
+function concatenar(nameUser,age,genre){
+    console.log(`El usuario ${nameUser} tiene ${age} años y es de genero ${genre}`);
+}
+concatenar(nameUser,age,genre)
 
 // let num1 = 20
 // let num2 = 40
